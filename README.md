@@ -1,26 +1,40 @@
-# Python Seed Training Lab
+# Python Seed Lab
 
-This repository is my Python training lab for building small projects connected to Seed, Edge AI, and Industrial IoT.
+A compact Python learning lab focused on small, practical projects around local automation, agent patterns, memory handling, and control-room utilities.
 
-## Project 1: Seed Control Room v0
+## Included modules
 
-A terminal menu program that practices:
-- input()
-- print()
-- variables
-- if / elif / else
-- while loop
-- break
-- basic sensor threshold checks
+1. Seed control room basics
+2. Control room functions and logic flows
+3. Temporary memory patterns
+4. Journal and text logging exercises
+5. JSON-based memory management
+6. A seed-style memory core prototype
 
-Features:
-- Show Seed status
-- Machine health checker
-- Add journal line
-- Show training goal
-- Exit
+## Learning goals
 
-Machine rules:
-- Temperature > 40 = warning
-- Vibration > 60 = warning
-- Current > 300 = warning
+- Practice Python fundamentals
+- Build repeatable CLI tools
+- Explore local state and journaling
+- Understand basic control systems and monitoring patterns
+- Experiment with small AI-adjacent workflows
+
+## Quick start
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+Then run the project folder you want to explore.
+
+## Example workflow
+
+```bash
+python 01_seed_control_room/main.py
+```
+
+## Notes
+
+This is a training-focused repository designed for experimentation, education, and rapid iteration. It is intentionally modular and easy to extend.
